@@ -14,7 +14,7 @@
 - `npm run dev`: Start Vite dev server for the demo site.
 - `npm run build`: Production build via Vite.
 - `npm run preview`: Serve the built site locally for verification.
-- `npm test`: Run Playwright tests (visual and basic a11y).
+- `npm test`: Run Playwright tests (builds first via `pretest`).
 
 ## Coding Style & Naming Conventions
 - TypeScript ES modules; 2‑space indentation; no frameworks.
@@ -44,5 +44,5 @@
 ## Continuous Integration (CI)
 - GitHub Actions workflow: `.github/workflows/ci.yml` runs on push/PR to `main`.
 - Node 20 on Ubuntu; caches npm; installs Playwright browsers.
-- Steps: install deps → `npm run build` → `npm test` (headless Playwright).
+- Steps: install deps → `npm run build` → `npm test` (headless Playwright with Vite preview server).
 - Artifacts: upload Playwright report/screenshots on failure for review.
