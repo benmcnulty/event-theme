@@ -507,4 +507,4 @@ npm run dev
 
 ## 14) License
 
-The specification proposes MIT for a future implementation. No `LICENSE` file is currently committed; the planned license should not be presented as an existing file.
+MIT, as stated in the original specification. A standalone `LICENSE` file has not yet been committed.
