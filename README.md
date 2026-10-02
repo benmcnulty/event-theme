@@ -1,6 +1,10 @@
 
 
-# event-theme — Plasma & Glass Web Style System
+# event-theme - Plasma & Glass Web Style System
+
+**Status: design specification only.** This repository currently contains this README. The file tree, CSS snippets, dependencies, demo controls and tests below are instructions for a future implementation; no Vite application, assets, package manifest, screenshots or runnable demo are committed. The referenced screenshot is not included in this repository.
+
+There are no current install/run/test commands. The example commands become applicable after an implementation and package manifest exist. Accessibility and visual-test targets below are acceptance criteria, not measured results. Contributions should preserve that distinction and record actual verification when code is added.
 
 **Purpose:** Provide a reproducible, scalable, and accessible theme inspired by two visual motifs in the provided screenshot:
 1) **Neon‑plasma logo glow** (cool blue core → mint cushion → lemon rim with a whisper of warm edge),
@@ -503,4 +507,4 @@ npm run dev
 
 ## 14) License
 
-MIT — see `LICENSE` (to be added).
+The specification proposes MIT for a future implementation. No `LICENSE` file is currently committed; the planned license should not be presented as an existing file.
